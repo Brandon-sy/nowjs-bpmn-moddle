@@ -1,0 +1,67 @@
+{
+  "name": "nowjs-bpmn-moddle",
+  "version": "1.0.0",
+  "description": "nowjs moddle extensions for BPMN 2.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "typescript": {
+    "definition": "lib/index.d.ts"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "debug": "npm run-script build:debug ",
+    "build:test": "npm run-script clean:dist && tsc --p ./tsconfig.test.json",
+    "build:debug": "npm run-script clean:dist && tsc --p ./tsconfig.debug.json",
+    "build:release": "npm run-script clean:release && tsc --p ./tsconfig.release.json",
+    "clean": "npm run clean:dist",
+    "clean:dist": "rm -rf ./dist/*",
+    "clean:release": "rm -rf ./lib/*",
+    "test": "jest --runInBand  --no-cache --config ./jest.json",
+    "test:watch": "jest --runInBand  --watch --config ./jest.json",
+    "coverage": " jest --runInBand  --no-cache --coverage  --config ./jest.json ",
+    "lint": "tslint -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
+    "lint:fix": "tslint --fix 'src/**/*.ts' 'test/**/*.ts' -t verbose",
+    "prepublishOnly": "npm run lint && npm run test && npm run build:release",
+    "preversion": "npm test",
+    "version": "npm run build:release ",
+    "postversion": "npm run clean:release",
+    "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
+    "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
+    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags",
+    "changelog:update": "",
+    "docs:update": "typedoc --out ./docs/documentation/ ./src/  && git commit -a -m 'update: The documentation updated.'",
+    "docs:clean": "rm -rf ./docs/documentation/*",
+    "docs:publish": "{{PUBLISH TO DOC_SITE_URL}}"
+  },
+  "keywords": [
+    "nowjs",
+    "nowjs-bpmn-moddle",
+    "nowjs-bpmn",
+    "nowcando",
+    "bpms",
+    "bpmn",
+    "bpmn2"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nowcando/nowjs-bpmn-moddle.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nowcando/nowjs-bpmn-moddle/issues"
+  },
+  "homepage": "https://github.com/nowcando/nowjs-bpmn-moddle#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "generate-changelog": "^1.8.0",
+    "jest": ">=24.9.0",
+    "jest-environment-node-debug": ">=2.0.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.2"
+  }
+}

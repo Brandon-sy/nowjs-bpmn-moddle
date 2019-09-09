@@ -1,0 +1,31 @@
+{
+  "buildOnSave": false,
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": false,
+    "outDir": "dist",
+    "declaration": false,
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": false,
+    "module": "commonjs",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext"
+    ]
+
+  },
+  "exclude": [
+    "dist",
+    "lib",
+    "node_modules"
+
+  ]
+}
