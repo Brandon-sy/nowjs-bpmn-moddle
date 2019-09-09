@@ -1,3 +1,14 @@
+### 1.1.0 (2019-09-09)
+
+##### Chores
+
+*  add travis ([1649a214](https://github.com/nowcando/nowjs-bpmn-moddle/commit/1649a2149cabe57b481c347cb5036baee2b648a2))
+*   initial commit ([d8879841](https://github.com/nowcando/nowjs-bpmn-moddle/commit/d887984163eb65f10bd912783d406919789695a3))
+
+##### New Features
+
+*  nowjs extention ([af7404ce](https://github.com/nowcando/nowjs-bpmn-moddle/commit/af7404ce8aef21f763fffc2570a3dc3dee7cfffc))
+
 ### 0.31.0 (2019-06-10)
 
 ##### Chores
