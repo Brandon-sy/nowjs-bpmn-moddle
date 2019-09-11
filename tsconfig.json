@@ -14,6 +14,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "noUnusedLocals": false,
+    "strict": true,
     "module": "commonjs",
     "target": "esnext",
     "moduleResolution": "node",

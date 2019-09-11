@@ -1,8 +1,8 @@
-# Contribute to nowjs-core
+# Contribute to nowjs-bpmn-moddle
 
 ## Pushing into main repository
-If you'd like to contribute to nowjs-core with a patch follow the following steps:
-* fork the repository interested in your change. The main one is https://github.com/nowcando/nowjs-core .
+If you'd like to contribute to nowjs-bpmn-moddle with a patch follow the following steps:
+* fork the repository interested in your change. The main one is https://github.com/nowcando/nowjs-bpmn-moddle .
 * select the "develop" branch i present
 * apply your changes,
 * test that Test Suite hasn't been broken by running:
