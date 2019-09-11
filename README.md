@@ -68,4 +68,4 @@ This extension hooks into the copy mechanism provided by the BPMN editor and ens
 Use under the terms of the [MIT license](http://opensource.org/licenses/MIT).
 
 ## Important:
- The most of codes obtained from [https://github.com/nowjs/nowjs-bpmn-moddle](https://github.com/nowjs/nowjs-bpmn-moddle)
+ The most of codes obtained from [https://github.com/camunda/camunda-bpmn-moddle](https://github.com/camunda/camunda-bpmn-moddle)
