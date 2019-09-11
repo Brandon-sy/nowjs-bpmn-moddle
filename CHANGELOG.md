@@ -1,3 +1,9 @@
+#### 1.3.5 (2019-09-11)
+
+##### Bug Fixes
+
+*   fix link for base project ([eb3d2e20](https://github.com/nowcando/nowjs-bpmn-moddle/commit/eb3d2e20b83e4a4ad9fb5c3814920f0da08d197b))
+
 #### 1.3.4 (2019-09-11)
 
 ##### Bug Fixes
