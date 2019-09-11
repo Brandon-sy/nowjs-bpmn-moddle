@@ -21,3 +21,4 @@ coverage/
 package-lock.json
 CHANGELOG.md
 CONTRIBUTING.md
+*.md
