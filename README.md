@@ -1,6 +1,10 @@
 # nowjs-bpmn-moddle
 
-[![Build Status](https://travis-ci.org/nowjs/nowjs-bpmn-moddle.svg)](https://travis-ci.org/nowcando/nowjs-bpmn-moddle)
+ [![npm version](https://badge.fury.io/js/nowjs-bpmn-moddle.svg)](https://www.npmjs.com/package/nowjs-bpmn-moddle)
+ [![Downloads](https://img.shields.io/npm/dm/nowjs-bpmn-moddle.svg)](https://www.npmjs.com/package/nowjs-bpmn-moddle)
+ [![Gitter](https://badges.gitter.im/nowcando/nowjs-bpmn-moddle.svg)](https://gitter.im/nowcando/nowjs-bpmn-moddle?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+  CI-Master: [![Build Status](https://travis-ci.org/nowcando/nowjs-bpmn-moddle.svg?branch=master)](https://travis-ci.org/nowcando/nowjs-bpmn-moddle) , CI-Develop: [![Build Status](https://travis-ci.org/nowcando/nowjs-bpmn-moddle.svg?branch=develop)](https://travis-ci.org/nowcando/nowjs-bpmn-moddle)
+
 
 This project defines the [NowJs](https://www.nowcando.com) namespace extensions for BPMN 2.0 as a [moddle](https://github.com/bpmn-io/moddle) descriptor.
 
