@@ -1,3 +1,9 @@
+#### 1.3.4 (2019-09-11)
+
+##### Bug Fixes
+
+*  badges in readme ([5124b587](https://github.com/nowcando/nowjs-bpmn-moddle/commit/5124b58709a95d13ff043f2b37c3db461a001630))
+
 #### 1.3.3 (2019-09-11)
 
 #### 1.3.2 (2019-09-11)
