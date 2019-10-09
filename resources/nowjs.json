@@ -6,11 +6,29 @@
     "tagAlias": "lowerCase"
   },
   "associations": [],
-  "types": [{
-      "name": "DynamicUI",
+  "types": [
+    
+    {
+      "name": "DynamicView",
       "superClass": ["Element"],
+      "meta": {
+        "allowedIn": [
+          "bpmn:UserTask",
+          "bpmn:Definitions"
+        ]
+      },
       "properties": [{
           "name": "updatedAt",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "createdAt",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "name",
           "isAttr": true,
           "type": "String"
         },
@@ -20,33 +38,34 @@
           "type": "String"
         },
         {
-          "name": "scripts",
-          "isMany": true,
+          "name": "type",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "target",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "renderEngine",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "designerVersion",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "tags",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "script",
+          "isMany": false,
           "type": "Script"
-        }
-      ]
-    },
-    {
-      "name": "Script",
-      "properties": [{
-          "name": "language",
-          "isAttr": true,
-          "type": "String"
-        },
-        {
-          "name": "author",
-          "isAttr": true,
-          "type": "String"
-        },
-        {
-          "name": "updatedAt",
-          "isAttr": true,
-          "type": "String"
-        },
-        {
-          "name": "code",
-          "isBody": true,
-          "type": "String"
         }
       ]
     },
@@ -338,12 +357,27 @@
           "type": "String"
         },
         {
+          "name": "assigneeType",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
           "name": "candidateUsers",
           "isAttr": true,
           "type": "String"
         },
         {
           "name": "candidateGroups",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "candidateOrgUnits",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "candidateRoles",
           "isAttr": true,
           "type": "String"
         },
