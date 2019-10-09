@@ -1,3 +1,9 @@
+### 1.4.0 (2019-10-09)
+
+##### New Features
+
+*  add some attribute to DynamicView ([e0945ce5](https://github.com/nowcando/nowjs-bpmn-moddle/commit/e0945ce534a23d9b2aa057b76cac8ed06f4bbadf))
+
 #### 1.3.5 (2019-09-11)
 
 ##### Bug Fixes
