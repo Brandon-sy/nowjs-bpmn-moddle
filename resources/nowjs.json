@@ -13,6 +13,7 @@
       "superClass": ["Element"],
       "meta": {
         "allowedIn": [
+          "bpmn:StartEvent",
           "bpmn:UserTask",
           "bpmn:Definitions"
         ]
