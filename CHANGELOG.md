@@ -1,3 +1,9 @@
+### 1.5.0 (2019-10-10)
+
+##### New Features
+
+*  add StartEvent to  DynamicView ([9aad9c20](https://github.com/nowcando/nowjs-bpmn-moddle/commit/9aad9c207d6608060ed41b543bb8c92e1609b029))
+
 ### 1.4.0 (2019-10-09)
 
 ##### New Features
