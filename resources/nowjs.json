@@ -15,6 +15,7 @@
         "allowedIn": [
           "bpmn:StartEvent",
           "bpmn:UserTask",
+          "bpmn:Process",
           "bpmn:Definitions"
         ]
       },
