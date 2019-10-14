@@ -492,7 +492,14 @@
       "extends": [
         "bpmn:BusinessRuleTask"
       ],
-      "properties": [{
+      "properties": [
+        {
+          "name": "dmnRef",
+          "isAttr": true,
+          "type": "String"
+        }
+        ,
+        {
           "name": "decisionRef",
           "isAttr": true,
           "type": "String"
