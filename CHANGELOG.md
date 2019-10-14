@@ -1,5 +1,11 @@
 ### 1.6.0 (2019-10-14)
 
+##### Bug Fixes
+
+*  DynamicView element position ([6c72c4c4](https://github.com/nowcando/nowjs-bpmn-moddle/commit/6c72c4c4d10ce3ec406b11b4fabb486b636f743e))
+
+### 1.6.0 (2019-10-14)
+
 ### 1.5.0 (2019-10-10)
 
 ##### New Features
