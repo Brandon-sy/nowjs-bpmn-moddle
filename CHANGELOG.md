@@ -1,3 +1,9 @@
+### 1.7.0 (2019-10-14)
+
+##### New Features
+
+*  add dmnRef to DmnCapable ([93089929](https://github.com/nowcando/nowjs-bpmn-moddle/commit/93089929bbe23b016e5209b70b6cf367e6873ab7))
+
 ### 1.6.0 (2019-10-14)
 
 ##### Bug Fixes
