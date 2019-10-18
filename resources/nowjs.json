@@ -68,6 +68,11 @@
           "name": "script",
           "isMany": false,
           "type": "Script"
+        },
+        {
+          "name": "authorization",
+          "isAttr": true,
+          "type": "String"
         }
       ]
     },
@@ -307,6 +312,27 @@
           "name": "candidateStarterUsers",
           "isAttr": true,
           "type": "String"
+        },
+        {
+          "name": "navigationKey",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "navigationTitle",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "navigationEnabled",
+          "isAttr": true,
+          "type": "Boolean",
+          "default": false
+        },
+        {
+          "name": "authorization",
+          "isAttr": true,
+          "type": "string"
         },
         {
           "name": "versionTag",
