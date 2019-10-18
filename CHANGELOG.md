@@ -1,3 +1,9 @@
+### 1.8.0 (2019-10-18)
+
+##### New Features
+
+*  navigation ([52cdb80b](https://github.com/nowcando/nowjs-bpmn-moddle/commit/52cdb80b8c17efbc2aaaea99195d23c215e8eecf))
+
 ### 1.7.0 (2019-10-14)
 
 ##### New Features
