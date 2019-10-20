@@ -19,13 +19,29 @@
           "bpmn:Definitions"
         ]
       },
-      "properties": [{
+      "properties": [
+        {
+          "name": "author",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
           "name": "updatedAt",
           "isAttr": true,
           "type": "String"
         },
         {
           "name": "createdAt",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "icon",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "class",
           "isAttr": true,
           "type": "String"
         },
@@ -58,6 +74,11 @@
           "name": "designerVersion",
           "isAttr": true,
           "type": "String"
+        },
+        {
+          "name": "enabled",
+          "isAttr": true,
+          "type": "Boolean"
         },
         {
           "name": "tags",
@@ -315,6 +336,21 @@
         },
         {
           "name": "navigationKey",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "navigationIcon",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "navigationClass",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "navigationTarget",
           "isAttr": true,
           "type": "String"
         },
