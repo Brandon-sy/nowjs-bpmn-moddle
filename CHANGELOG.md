@@ -1,3 +1,9 @@
+### 1.9.0 (2019-10-20)
+
+##### New Features
+
+*  add icon and target to navigation . ([d42cdb01](https://github.com/nowcando/nowjs-bpmn-moddle/commit/d42cdb010fbdf38c17de152fe36ae4d5c3ce8543))
+
 ### 1.8.0 (2019-10-18)
 
 ##### New Features
