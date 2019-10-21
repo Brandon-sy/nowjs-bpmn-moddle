@@ -355,6 +355,16 @@
           "type": "String"
         },
         {
+          "name": "defaultView",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "allowedViews",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
           "name": "navigationKey",
           "isAttr": true,
           "type": "String"
