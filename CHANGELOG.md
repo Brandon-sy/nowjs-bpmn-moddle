@@ -1,3 +1,10 @@
+### 1.11.0 (2019-10-21)
+
+##### New Features
+
+*   add defaultView and  allowedViews to Process ([b5a7e782](https://github.com/nowcando/nowjs-bpmn-moddle/commit/b5a7e782ffb2f6743c3c35faf4a2ee588f8836fc))
+*  add DisplayOrder and NavigationOrder ([26c00012](https://github.com/nowcando/nowjs-bpmn-moddle/commit/26c00012bfd7ae99809990732c2f5d04300a7e48))
+
 ### 1.10.0 (2019-10-21)
 
 ##### New Features
