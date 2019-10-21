@@ -81,6 +81,11 @@
           "type": "Boolean"
         },
         {
+          "name": "category",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
           "name": "tags",
           "isAttr": true,
           "type": "String"
@@ -331,6 +336,16 @@
         },
         {
           "name": "candidateStarterUsers",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "category",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "tags",
           "isAttr": true,
           "type": "String"
         },
