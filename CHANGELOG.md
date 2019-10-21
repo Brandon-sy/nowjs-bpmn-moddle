@@ -1,3 +1,54 @@
+### 1.11.0 (2019-10-21)
+
+##### New Features
+
+*   add defaultView and  allowedViews to Process ([b5a7e782](https://github.com/nowcando/nowjs-bpmn-moddle/commit/b5a7e782ffb2f6743c3c35faf4a2ee588f8836fc))
+*  add DisplayOrder and NavigationOrder ([26c00012](https://github.com/nowcando/nowjs-bpmn-moddle/commit/26c00012bfd7ae99809990732c2f5d04300a7e48))
+
+### 1.10.0 (2019-10-21)
+
+##### New Features
+
+*  add tags and category to DynamicView and Process ([d11c555c](https://github.com/nowcando/nowjs-bpmn-moddle/commit/d11c555c9d127bca606f6db09365e6fda58adb33))
+
+### 1.9.0 (2019-10-20)
+
+##### New Features
+
+*  add icon and target to navigation . ([d42cdb01](https://github.com/nowcando/nowjs-bpmn-moddle/commit/d42cdb010fbdf38c17de152fe36ae4d5c3ce8543))
+
+### 1.8.0 (2019-10-18)
+
+##### New Features
+
+*  navigation ([52cdb80b](https://github.com/nowcando/nowjs-bpmn-moddle/commit/52cdb80b8c17efbc2aaaea99195d23c215e8eecf))
+
+### 1.7.0 (2019-10-14)
+
+##### New Features
+
+*  add dmnRef to DmnCapable ([93089929](https://github.com/nowcando/nowjs-bpmn-moddle/commit/93089929bbe23b016e5209b70b6cf367e6873ab7))
+
+### 1.6.0 (2019-10-14)
+
+##### Bug Fixes
+
+*  DynamicView element position ([6c72c4c4](https://github.com/nowcando/nowjs-bpmn-moddle/commit/6c72c4c4d10ce3ec406b11b4fabb486b636f743e))
+
+### 1.6.0 (2019-10-14)
+
+### 1.5.0 (2019-10-10)
+
+##### New Features
+
+*  add StartEvent to  DynamicView ([9aad9c20](https://github.com/nowcando/nowjs-bpmn-moddle/commit/9aad9c207d6608060ed41b543bb8c92e1609b029))
+
+### 1.4.0 (2019-10-09)
+
+##### New Features
+
+*  add some attribute to DynamicView ([e0945ce5](https://github.com/nowcando/nowjs-bpmn-moddle/commit/e0945ce534a23d9b2aa057b76cac8ed06f4bbadf))
+
 #### 1.3.5 (2019-09-11)
 
 ##### Bug Fixes

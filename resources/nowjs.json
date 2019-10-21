@@ -6,33 +6,20 @@
     "tagAlias": "lowerCase"
   },
   "associations": [],
-  "types": [{
-      "name": "DynamicUI",
-      "superClass": ["Element"],
-      "properties": [{
-          "name": "updatedAt",
-          "isAttr": true,
-          "type": "String"
-        },
-        {
-          "name": "title",
-          "isAttr": true,
-          "type": "String"
-        },
-        {
-          "name": "scripts",
-          "isMany": true,
-          "type": "Script"
-        }
-      ]
-    },
+  "types": [
+    
     {
-      "name": "Script",
-      "properties": [{
-          "name": "language",
-          "isAttr": true,
-          "type": "String"
-        },
+      "name": "DynamicView",
+      "superClass": ["Element"],
+      "meta": {
+        "allowedIn": [
+          "bpmn:StartEvent",
+          "bpmn:UserTask",
+          "bpmn:Process",
+          "bpmn:Definitions"
+        ]
+      },
+      "properties": [
         {
           "name": "author",
           "isAttr": true,
@@ -44,8 +31,78 @@
           "type": "String"
         },
         {
-          "name": "code",
-          "isBody": true,
+          "name": "createdAt",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "icon",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "class",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "name",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "title",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "type",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "target",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "renderEngine",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "designerVersion",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "enabled",
+          "isAttr": true,
+          "type": "Boolean"
+        },
+        {
+          "name": "category",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "tags",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "displayOrder",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "script",
+          "isMany": false,
+          "type": "Script"
+        },
+        {
+          "name": "authorization",
+          "isAttr": true,
           "type": "String"
         }
       ]
@@ -288,6 +345,67 @@
           "type": "String"
         },
         {
+          "name": "category",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "tags",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "defaultView",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "allowedViews",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "navigationKey",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "navigationIcon",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "navigationOrder",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "navigationClass",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "navigationTarget",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "navigationTitle",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "navigationEnabled",
+          "isAttr": true,
+          "type": "Boolean",
+          "default": false
+        },
+        {
+          "name": "authorization",
+          "isAttr": true,
+          "type": "string"
+        },
+        {
           "name": "versionTag",
           "isAttr": true,
           "type": "String"
@@ -338,12 +456,27 @@
           "type": "String"
         },
         {
+          "name": "assigneeType",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
           "name": "candidateUsers",
           "isAttr": true,
           "type": "String"
         },
         {
           "name": "candidateGroups",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "candidateOrgUnits",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "candidateRoles",
           "isAttr": true,
           "type": "String"
         },
@@ -456,7 +589,14 @@
       "extends": [
         "bpmn:BusinessRuleTask"
       ],
-      "properties": [{
+      "properties": [
+        {
+          "name": "dmnRef",
+          "isAttr": true,
+          "type": "String"
+        }
+        ,
+        {
           "name": "decisionRef",
           "isAttr": true,
           "type": "String"
