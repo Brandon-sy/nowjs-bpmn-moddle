@@ -1,3 +1,9 @@
+### 1.10.0 (2019-10-21)
+
+##### New Features
+
+*  add tags and category to DynamicView and Process ([d11c555c](https://github.com/nowcando/nowjs-bpmn-moddle/commit/d11c555c9d127bca606f6db09365e6fda58adb33))
+
 ### 1.9.0 (2019-10-20)
 
 ##### New Features
