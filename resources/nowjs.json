@@ -91,6 +91,11 @@
           "type": "String"
         },
         {
+          "name": "displayOrder",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
           "name": "script",
           "isMany": false,
           "type": "Script"
@@ -356,6 +361,11 @@
         },
         {
           "name": "navigationIcon",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "navigationOrder",
           "isAttr": true,
           "type": "String"
         },
