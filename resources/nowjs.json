@@ -71,9 +71,19 @@
           "type": "String"
         },
         {
+          "name": "renderEngineVersion",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
           "name": "designerVersion",
           "isAttr": true,
           "type": "String"
+        },
+        {
+          "name": "default",
+          "isAttr": true,
+          "type": "Boolean"
         },
         {
           "name": "enabled",
@@ -99,6 +109,16 @@
           "name": "script",
           "isMany": false,
           "type": "Script"
+        },
+        {
+          "name": "template",
+          "isMany": false,
+          "type": "Template"
+        },
+        {
+          "name": "style",
+          "isMany": false,
+          "type": "Style"
         },
         {
           "name": "authorization",
@@ -811,6 +831,46 @@
         },
         {
           "name": "name",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "value",
+          "isBody": true,
+          "type": "String"
+        }
+      ]
+    },
+    {
+      "name": "Style",
+      "superClass": ["Element"],
+      "properties": [{
+          "name": "styleFormat",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "resource",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "value",
+          "isBody": true,
+          "type": "String"
+        }
+      ]
+    },
+    {
+      "name": "Template",
+      "superClass": ["Element"],
+      "properties": [{
+          "name": "templateFormat",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "resource",
           "isAttr": true,
           "type": "String"
         },
