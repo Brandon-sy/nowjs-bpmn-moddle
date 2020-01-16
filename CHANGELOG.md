@@ -1,3 +1,9 @@
+### 1.14.0 (2020-01-16)
+
+##### Chores
+
+*  update dependencies ([6d545ddf](https://github.com/nowcando/nowjs-bpmn-moddle/commit/6d545ddf4de5743558022ca6a9767700bfe778ad))
+
 ### 1.13.0 (2020-01-16)
 
 ### 1.12.0 (2020-01-16)
