@@ -1,3 +1,17 @@
+### 1.14.0 (2020-01-16)
+
+##### Chores
+
+*  update dependencies ([6d545ddf](https://github.com/nowcando/nowjs-bpmn-moddle/commit/6d545ddf4de5743558022ca6a9767700bfe778ad))
+
+### 1.13.0 (2020-01-16)
+
+### 1.12.0 (2020-01-16)
+
+##### New Features
+
+*  add template , style , engineVersion to DynamicView ([b3cb3bd0](https://github.com/nowcando/nowjs-bpmn-moddle/commit/b3cb3bd06c92f67b6722bbf9e3e347b873f68b5b))
+
 ### 1.11.0 (2019-10-21)
 
 ##### New Features

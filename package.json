@@ -1,6 +1,6 @@
 {
   "name": "nowjs-bpmn-moddle",
-  "version": "1.11.0",
+  "version": "1.14.0",
   "description": "nowjs moddle extensions for BPMN 2.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -55,13 +55,13 @@
   },
   "homepage": "https://github.com/nowcando/nowjs-bpmn-moddle#readme",
   "devDependencies": {
-    "@types/jest": "^24.0.18",
+    "@types/jest": "^24.9.0",
     "generate-changelog": "^1.8.0",
     "jest": ">=24.9.0",
     "jest-environment-node-debug": ">=2.0.0",
-    "ts-jest": "^24.0.2",
-    "ts-node": "^8.3.0",
-    "tslint": "^5.19.0",
-    "typescript": "^3.6.2"
+    "ts-jest": "^24.3.0",
+    "ts-node": "^8.6.2",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
   }
 }
