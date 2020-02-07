@@ -1,3 +1,9 @@
+### 1.15.0 (2020-02-07)
+
+##### New Features
+
+*  add DynamicRoute ([15f04575](https://github.com/nowcando/nowjs-bpmn-moddle/commit/15f04575abeac6f061aed5f1e7e996521e7001e0))
+
 ### 1.14.0 (2020-01-16)
 
 ##### Chores
