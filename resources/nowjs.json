@@ -7,7 +7,89 @@
   },
   "associations": [],
   "types": [
-    
+    {
+      "name": "DynamicRoute",
+      "superClass": ["Element"],
+      "meta": {
+        "allowedIn": [
+          "bpmn:Process"
+        ]
+      },
+      "properties": [
+        {
+          "name": "author",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "updatedAt",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "createdAt",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "icon",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "class",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "name",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "title",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "type",
+          "isAttr": true,
+          "type": "String",
+          "default": "static"
+        },
+        {
+          "name": "enabled",
+          "isAttr": true,
+          "type": "Boolean",
+          "default": true
+        },
+        {
+          "name": "category",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "tags",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "displayOrder",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "route",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "authorization",
+          "isAttr": true,
+          "type": "String"
+        }
+      ]
+    },
     {
       "name": "DynamicView",
       "superClass": ["Element"],
@@ -385,40 +467,40 @@
           "type": "String"
         },
         {
-          "name": "navigationKey",
+          "name": "route",
           "isAttr": true,
           "type": "String"
         },
         {
-          "name": "navigationIcon",
+          "name": "icon",
           "isAttr": true,
           "type": "String"
         },
         {
-          "name": "navigationOrder",
+          "name": "routeOrder",
           "isAttr": true,
           "type": "String"
         },
         {
-          "name": "navigationClass",
+          "name": "routeClass",
           "isAttr": true,
           "type": "String"
         },
         {
-          "name": "navigationTarget",
+          "name": "routeTarget",
           "isAttr": true,
           "type": "String"
         },
         {
-          "name": "navigationTitle",
+          "name": "title",
           "isAttr": true,
           "type": "String"
         },
         {
-          "name": "navigationEnabled",
+          "name": "routeEnabled",
           "isAttr": true,
           "type": "Boolean",
-          "default": false
+          "default": true
         },
         {
           "name": "authorization",
