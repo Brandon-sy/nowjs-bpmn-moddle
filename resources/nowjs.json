@@ -305,6 +305,39 @@
       ]
     },
     {
+      "name": "DefinitionsExtended",
+      "isAbstract": true,
+      "extends": [
+        "bpmn:Definitions"
+      ],
+      "properties": [{
+        "name": "version",
+        "isAttr": true,
+        "type": "String"
+      },
+      {
+        "name": "systemName",
+        "isAttr": true,
+        "type": "String"
+      },
+      {
+        "name": "systemId",
+        "isAttr": true,
+        "type": "String"
+      },
+      {
+        "name": "category",
+        "isAttr": true,
+        "type": "String"
+      },
+      {
+        "name": "tags",
+        "isAttr": true,
+        "type": "String"
+      }
+    ]
+    },
+    {
       "name": "JobPriorized",
       "isAbstract": true,
       "extends": [
