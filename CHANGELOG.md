@@ -1,3 +1,9 @@
+### 1.16.0 (2020-02-22)
+
+##### New Features
+
+*  Definitions attribute extended ([ba2a1bee](https://github.com/nowcando/nowjs-bpmn-moddle/commit/ba2a1bee96a6a1d18813261d9f673a76fb710d7f))
+
 ### 1.15.0 (2020-02-07)
 
 ##### New Features
